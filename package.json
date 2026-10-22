@@ -1,0 +1,17 @@
+{
+  "name": "legends-lair-rsvp-bot",
+  "version": "1.0.0",
+  "description": "Recovery starter for the Legends Lair RSVP Discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "engines": { "node": ">=20 <25" },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
