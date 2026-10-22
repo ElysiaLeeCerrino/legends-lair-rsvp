@@ -12,5 +12,13 @@ services:
         sync: false
       - key: GUILD_ID
         sync: false
+      - key: GOOGLE_CLIENT_EMAIL
+        sync: false
+      - key: GOOGLE_PRIVATE_KEY
+        sync: false
+      - key: GOOGLE_CALENDAR_ID
+        sync: false
+      - key: GOOGLE_CALENDAR_TIMEZONE
+        value: Europe/London
       - key: NODE_VERSION
         value: 22
